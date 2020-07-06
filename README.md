@@ -55,3 +55,11 @@
 
 - Loader：Webpack 将一切文件视为模块，但是 webpack 原生是只能解析 js 文件，如果想将其他文件也打包的话，就会用到 loader。 所以 Loader 的作用是让 webpack 拥有了加载和解析非 JavaScript 文件的能力。
 - Plugin：Plugin 可以扩展 webpack 的功能，让 webpack 具有更多的灵活性。 在 Webpack 运行的生命周期中会广播出许多事件，Plugin 可以监听这些事件，在合适的时机通过 Webpack 提供的 API 改变输出结果。
+
+开发思路：
+
+Loader 和 Plugin 都是 webpack 的衍生物，个人理解开发思路是以目的为导向，根据自身需求完成开发设计
+
+## 编程题
+
+> 具体见 code/operation 内代码实现
